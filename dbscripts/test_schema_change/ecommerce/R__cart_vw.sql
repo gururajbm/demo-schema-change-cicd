@@ -1,6 +1,8 @@
 
 USE SCHEMA ECOMMERCE;
 
+DROP VIEW IF EXISTS TEST_SCHEMACHANGE.ECOMMERCE.user_cart_view;
+
 CREATE VIEW user_cart_view AS
 SELECT u.name as username, u.ADDRESS as user_ADDRESS, p.name as product_name
     FROM TEST_SCHEMACHANGE.ECOMMERCE.cart AS c 
