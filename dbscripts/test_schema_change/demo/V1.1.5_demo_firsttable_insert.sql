@@ -1,0 +1,5 @@
+USE SCHEMA DEMO;
+
+INSERT INTO FIRST_TABLE_CICD (FIRST_NAME, LAST_NAME, AGE, SAL)
+    VALUES ('Jonas', 'Fischer', 29, 10000)
+    , ('Ella', 'Weber', 35, 10000);
