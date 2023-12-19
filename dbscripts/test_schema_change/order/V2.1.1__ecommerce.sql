@@ -1,4 +1,4 @@
-CREATE SCHEMA ECOMMERCE;
+USE ECOMMERCE;
 
 create table User (
   id      number  autoincrement start 1 increment 1,
