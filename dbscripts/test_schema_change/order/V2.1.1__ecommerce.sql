@@ -8,7 +8,7 @@ create or replace TABLE TEST_SCHEMACHANGE.ECOMMERCE.USER (
 
 ALTER TABLE User ADD PRIMARY KEY (id);
 
-create or replace TABLE TEST_SCHEMACHANGE.Product 
+create or replace TABLE TEST_SCHEMACHANGE.ECOMMERCE.Product 
 ( 
      id      number autoincrement start 1 increment 1, 
      name    VARCHAR(10), 
