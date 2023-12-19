@@ -2,7 +2,7 @@
 USE SCHEMA ECOMMERCE;
 
 CREATE VIEW user_cart_view AS
-SELECT u.name as username, p.name as product_name
+SELECT u.name as username, u.ADDRESS as user_ADDRESS, p.name as product_name
     FROM TEST_SCHEMACHANGE.ECOMMERCE.cart AS c 
     JOIN TEST_SCHEMACHANGE.ECOMMERCE.user AS u 
         ON c.user_id = u.id
