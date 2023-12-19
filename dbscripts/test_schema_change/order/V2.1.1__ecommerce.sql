@@ -1,3 +1,5 @@
+USE SCHEMA ECOMMERCE;
+
 create or replace TABLE TEST_SCHEMACHANGE.ECOMMERCE.USER (
 	ID NUMBER(38,0) autoincrement start 1 increment 1 order,
 	NAME VARCHAR(16777216),
