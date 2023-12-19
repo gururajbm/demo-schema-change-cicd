@@ -1,4 +1,4 @@
-CREATE SCHEMA DEMO;
+CREATE SCHEMA ECOMMERCE;
 
 create table User (
   id autoincrement start 1 increment 1,
